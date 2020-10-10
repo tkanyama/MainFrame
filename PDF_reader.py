@@ -1883,7 +1883,8 @@ class MainFrame(wx.Frame):
             token_filters = []
             char_filters = []
             tokenizer = Tokenizer(self.user_dic, udic_enc="utf8")
-            analyzer = Analyzer(char_filters, tokenizer, token_filters)
+            # analyzer = Analyzer(char_filters, tokenizer, token_filters)
+            analyzer = Analyzer(char_filters=char_filters, tokenizer=tokenizer, token_filters=token_filters)
 
             self.title_text = []
             self.date_text = []
