@@ -11,6 +11,15 @@ python 3.7.1
 
 作成：2020/4 完山
 
+外部ツールのインストール
+
+tesseractをインストール
+https://github.com/tesseract-ocr/tesseract
+
+poppler をインストール
+http://blog.alivate.com.au/poppler-windows/
+
+
 '''
 
 # ライブラリーの読み込み
