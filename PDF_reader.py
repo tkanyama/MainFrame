@@ -27,6 +27,7 @@ import os
 
 import matplotlib
 
+# kkk
 matplotlib.interactive(True)
 matplotlib.use('WXAgg')
 import matplotlib.pyplot as plt
